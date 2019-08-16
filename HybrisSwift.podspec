@@ -82,6 +82,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/kasimsagir/HybrisSwift.git", :tag => "#{spec.version}" }
 
+  spec.swift_versions = "4.0"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
