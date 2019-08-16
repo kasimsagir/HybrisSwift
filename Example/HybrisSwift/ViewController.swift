@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HybrisSwift
 
 class ViewController: UIViewController {
 

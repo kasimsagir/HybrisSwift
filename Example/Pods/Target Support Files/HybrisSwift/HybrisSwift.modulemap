@@ -1,0 +1,6 @@
+framework module HybrisSwift {
+  umbrella header "HybrisSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

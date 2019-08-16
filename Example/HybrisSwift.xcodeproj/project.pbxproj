@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1CE91170FC775B52382087A0 /* Pods-HybrisSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybrisSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-HybrisSwift_Example/Pods-HybrisSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		435F8F0B8901D859CF0CC17C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		435F8F0B8901D859CF0CC17C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HybrisSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybrisSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,8 +41,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7E6744846D03E2226274D7FF /* Pods_HybrisSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HybrisSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C732FACC58AC1580B892105 /* HybrisSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HybrisSwift.podspec; path = ../HybrisSwift.podspec; sourceTree = "<group>"; };
-		B484B61873D671A31F379BEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8C732FACC58AC1580B892105 /* HybrisSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HybrisSwift.podspec; path = ../HybrisSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B484B61873D671A31F379BEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DBA4DAB9C0F90E8EF4CE5156 /* Pods-HybrisSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybrisSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HybrisSwift_Tests/Pods-HybrisSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECC7ECE85803A69900731895 /* Pods_HybrisSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HybrisSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C98C45A3C2C19E15930BCB /* Pods-HybrisSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybrisSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-HybrisSwift_Example/Pods-HybrisSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				DBA4DAB9C0F90E8EF4CE5156 /* Pods-HybrisSwift_Tests.debug.xcconfig */,
 				FDB9E9B1E26F42EF43FE4DD8 /* Pods-HybrisSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YH9484UXC5;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YH9484UXC5;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -503,7 +505,9 @@
 			baseConfigurationReference = 1CE91170FC775B52382087A0 /* Pods-HybrisSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YH9484UXC5;
 				INFOPLIST_FILE = HybrisSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -518,7 +522,9 @@
 			baseConfigurationReference = F0C98C45A3C2C19E15930BCB /* Pods-HybrisSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YH9484UXC5;
 				INFOPLIST_FILE = HybrisSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -532,6 +538,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBA4DAB9C0F90E8EF4CE5156 /* Pods-HybrisSwift_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YH9484UXC5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -554,6 +562,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDB9E9B1E26F42EF43FE4DD8 /* Pods-HybrisSwift_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YH9484UXC5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
