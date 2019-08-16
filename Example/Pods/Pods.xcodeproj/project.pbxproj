@@ -16,7 +16,7 @@
 		0AF3A4B360022ADC40E8DA0B74E551A0 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088EC9F85A212D995C28600B2EB8690 /* Example.swift */; };
 		0CA79CF756C3E59F586D71C647170FF9 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572E2B6BC86F1492D00AD6769E465605 /* ExampleGroup.swift */; };
 		0F2A9537979F582CEA3A22C8FF914533 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054E4C3B8A9E993536DF762AA778F72 /* World+DSL.swift */; };
-		0F4E50607C546550FD067F6258517195 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27430432D59D0FAFDE8887749B5EB753 /* ReplaceMe.swift */; };
+		0F4E50607C546550FD067F6258517195 /* HybrisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27430432D59D0FAFDE8887749B5EB753 /* HybrisService.swift */; };
 		1098AC9B0A4F55B1CCF3C32D46C65FF8 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2285555C127698E7886F270EA14750 /* NimbleEnvironment.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F63346C8C191BF0566B18DF620D15DA /* UIApplication+StrictKeyWindow.m */; };
 		11E562107FE281404113395BA7DA35D8 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0967ED74515F879701B2744E23ABE3 /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -249,7 +249,7 @@
 		24327CFE45A85F80898112441AD0C9A4 /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
 		2683BE5CB8613C5B12310D2273F7B126 /* Pods-HybrisSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HybrisSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		26DE3BDCD5349AC1578A4DCCE630C245 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
-		27430432D59D0FAFDE8887749B5EB753 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		27430432D59D0FAFDE8887749B5EB753 /* HybrisService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HybrisService.swift; sourceTree = "<group>"; };
 		2A86419D49CDA286B06299A943CB10C6 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
 		2C65C2A652942BA90EE4738EA528F7A0 /* Nimble-Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Nimble-Snapshots.xcconfig"; sourceTree = "<group>"; };
 		2D13891721C16921F933F4AFDA15D530 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
@@ -640,7 +640,7 @@
 		8689BA662306CB740051F2D0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				27430432D59D0FAFDE8887749B5EB753 /* ReplaceMe.swift */,
+				27430432D59D0FAFDE8887749B5EB753 /* HybrisService.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1187,7 +1187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF68716D435A3D8DA1381D0D31711238 /* HybrisSwift-dummy.m in Sources */,
-				0F4E50607C546550FD067F6258517195 /* ReplaceMe.swift in Sources */,
+				0F4E50607C546550FD067F6258517195 /* HybrisService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
