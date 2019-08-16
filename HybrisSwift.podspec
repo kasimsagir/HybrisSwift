@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  Hybris default ios pod
+  Hybris default ios pod. HybrisSwift is integration of Hybris Services
                    DESC
 
   spec.homepage     = "https://github.com/kasimsagir/HybrisSwift"
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Pod/Classes/**/*"
+  spec.source_files  = "Classes/**/*"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
